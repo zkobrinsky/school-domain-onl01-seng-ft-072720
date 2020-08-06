@@ -2,7 +2,7 @@ require "pry"
 
 class School
 
-  
+
 
 
 
