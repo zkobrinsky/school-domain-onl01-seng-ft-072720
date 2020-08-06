@@ -24,7 +24,7 @@ class School
       ROSTER[grade] = []
       # ROSTER[grade] << "#{student_name}"
     # else
-      
+
     end
     ROSTER[grade] << "#{student_name}"
     # binding.pry
