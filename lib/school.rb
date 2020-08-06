@@ -10,7 +10,7 @@ attr_accessor :roster
     @school_name = school_name
 
     ROSTER = {}
-    @roster = ROSTER
+    # @roster = ROSTER
   end
 
 
