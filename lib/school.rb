@@ -27,8 +27,8 @@ class School
     else
       ROSTER[grade] << "#{student_name}"
     end
-    
-    
+
+
     # binding.pry
   end
 
