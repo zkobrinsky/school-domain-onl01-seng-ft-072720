@@ -24,7 +24,7 @@ attr_accessor :roster
   end
 
   def grade(grade_number)
-    @roster.select do|key, array| 
+    @roster.select do|key, array|
       return array
         # binding.pry
       end
