@@ -28,7 +28,7 @@ attr_accessor :roster
       if key == grade_number
         return array
         # binding.pry
-      end
+        end
       end
 
   end
