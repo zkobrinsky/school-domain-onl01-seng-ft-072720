@@ -24,7 +24,6 @@ class School
       ROSTER[grade] = []
       ROSTER[grade] << "#{student_name}"
     else
-      ROSTER[grade] = []
       ROSTER[grade] << "#{student_name}"
     end
 
