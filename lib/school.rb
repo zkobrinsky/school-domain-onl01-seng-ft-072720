@@ -25,8 +25,8 @@ attr_accessor :roster
 
   def grade(grade_number)
     @roster.select do|key, array|
-      if key == grade_number
-        return array
+        if key == grade_number
+          return array
         # binding.pry
         end
       end
