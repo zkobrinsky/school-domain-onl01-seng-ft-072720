@@ -44,7 +44,7 @@ attr_accessor :roster
 
 
     @roster.sort_by {|grade, name| grade
-      binding.pry
+      # binding.pry
     }.to_h
 
   end
