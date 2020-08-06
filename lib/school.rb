@@ -39,7 +39,7 @@ attr_accessor :roster
       grade
       binding.pry
     }
-    
+
   end
 
 end
