@@ -2,7 +2,7 @@ require "pry"
 
 class School
 
-  attr_accessor :roster
+  
 
 
 
@@ -12,9 +12,11 @@ class School
     ROSTER = {}
   end
 
-  def roster
-    ROSTER
-  end
+  attr_accessor :roster
+
+  # def roster
+  #   ROSTER
+  # end
 
 
 
