@@ -8,6 +8,7 @@ class School
 
   def initialize(school_name)
     @school_name = school_name
+    ROSTER = roster
   end
 
   # def roster
