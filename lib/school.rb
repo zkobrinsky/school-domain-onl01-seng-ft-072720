@@ -27,7 +27,7 @@ attr_accessor :roster
     @roster.select{|key, array| array
         binding.pry
     }
-    
+
   end
 
 end
