@@ -23,8 +23,8 @@ class School
     if !ROSTER.include?(grade)
       ROSTER[grade] = []
       ROSTER[grade] << "#{student_name}"
-    else
-      ROSTER[grade] << "#{student_name}"
+    # else
+    #   ROSTER[grade] << "#{student_name}"
     end
 
 
