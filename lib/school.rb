@@ -10,9 +10,9 @@ class School
     @school_name = school_name
   end
 
-  def roster
-    ROSTER
-  end
+  # def roster
+  #   ROSTER
+  # end
 
 
 
