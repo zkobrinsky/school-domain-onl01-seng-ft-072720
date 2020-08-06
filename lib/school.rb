@@ -29,7 +29,7 @@ class School
     end
 
 
-    # binding.pry
+    binding.pry
   end
 
 end
