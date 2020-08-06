@@ -34,7 +34,7 @@ attr_accessor :roster
   end
 
   def sort
-    @roster.sort
+    @roster.sort.join
   end
 
 end
