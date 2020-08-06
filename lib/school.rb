@@ -23,7 +23,7 @@ class School
     @grade = grade
     ROSTER[grade] = []
     ROSTER[grade] << "#{student_name}"
-    binding.pry
+    # binding.pry
   end
 
 end
