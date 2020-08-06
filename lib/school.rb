@@ -12,7 +12,7 @@ attr_accessor :roster
     ROSTER = {}
   end
 
-  
+
 
   # def roster
   #   ROSTER
