@@ -25,6 +25,7 @@ attr_accessor :roster
 
   def grade(grade_number)
     @roster.select{|key, array| array}
+    binding.pry
   end
 
 end
