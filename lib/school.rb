@@ -38,10 +38,10 @@ attr_accessor :roster
     @roster.sort.map do |grade, name|
         binding.pry
       end
-      
+
     # @roster.each do |grade, name|
     #   name = name.sort
-        
+
     # end
 
 
