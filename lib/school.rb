@@ -2,7 +2,7 @@ require "pry"
 
 class School
 
-  # attr_accessor ()
+  attr_accessor :roster
 
   ROSTER = {}
 
