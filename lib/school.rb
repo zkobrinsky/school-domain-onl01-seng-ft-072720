@@ -35,7 +35,9 @@ attr_accessor :roster
 
   def sort
     hash = {}
-
+    @roster.each do |grade, name|
+        binding.pry
+    end
 
     # @roster.sort_by {|grade, name| grade
     #   hash[grade] = name
