@@ -44,6 +44,7 @@ attr_accessor :roster
 
 
     hash = @roster.sort_by {|grade, name| grade}.to_h
+    hash.each.do {|grade, name| name = name.sort}
     hash
     # binding.pry
   end
