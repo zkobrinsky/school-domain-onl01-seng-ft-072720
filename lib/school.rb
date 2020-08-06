@@ -35,17 +35,17 @@ attr_accessor :roster
 
   def sort
     hash = {}
-    # hash = @roster.each do |grade, name|
-    #   name = name.sort
-    #     # binding.pry
-    # end
+    hash = @roster.each do |grade, name|
+      name = name.sort
+        # binding.pry
+    end
 
 
 
-    hash = @roster.sort_by {|grade, name| grade}.to_h
-    # hash.each {|grade, name| name.sort}
-    binding.pry
-    hash
+    # hash = @roster.sort_by {|grade, name| grade}.to_h
+    # # hash.each {|grade, name| name.sort}
+    # binding.pry
+    # hash
     # binding.pry
   end
 
