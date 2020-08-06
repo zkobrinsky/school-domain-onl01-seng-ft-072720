@@ -38,7 +38,7 @@ attr_accessor :roster
     @roster.keys.sort
     # @roster.each do |grade, name|
     #   name = name.sort
-    #     binding.pry
+        binding.pry
     # end
 
 
