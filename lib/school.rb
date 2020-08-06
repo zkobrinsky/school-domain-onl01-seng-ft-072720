@@ -21,7 +21,9 @@ class School
   def add_student(student_name, grade)
     @student_name = student_name
     @grade = grade
+    if ROSTER !include? grade
     ROSTER[grade] = []
+    end
     ROSTER[grade] << "#{student_name}"
     # binding.pry
   end
