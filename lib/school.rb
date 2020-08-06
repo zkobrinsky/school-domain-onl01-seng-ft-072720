@@ -22,9 +22,13 @@ class School
     @student_name = student_name
     @grade = grade
     if ROSTER !include?(grade)
-    ROSTER[grade] = []
+      ROSTER[grade] = []
+      ROSTER[grade] << "#{student_name}"
+    else
+      ROSTER[grade] << "#{student_name}"
     end
-    ROSTER[grade] << "#{student_name}"
+    
+    
     # binding.pry
   end
 
