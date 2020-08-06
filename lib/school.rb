@@ -35,7 +35,7 @@ attr_accessor :roster
 
   def sort
 
-    @roster.sort_by {|grade, name| grade}
+    @roster[grade].sort_by {|grade, name| grade}
     binding.pry
   end
 
