@@ -36,7 +36,7 @@ attr_accessor :roster
   def sort
     hash = {}
     @roster.sort_by {|grade, name| grade
-      # grade
+      hash << :grade => name
       binding.pry
     }
 
