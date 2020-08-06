@@ -12,8 +12,7 @@ class School
   end
 
   def roster
-    @roster = ROSTER
-    @roster
+    ROSTER
   end
 
 
