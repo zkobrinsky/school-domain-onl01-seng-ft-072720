@@ -1,3 +1,5 @@
+require "pry"
+
 class School
 
   attr_accessor ()
@@ -11,7 +13,9 @@ class School
   def add_student(student_name, grade)
     @student_name = student_name
     @grade = grade
-    ROSTER << {grade: [student_name]}
+    ROSTER[:grade] = []
+    ROSTER[:grade] << "#{student_name}"
+    binding.pry
   end
 
 end
