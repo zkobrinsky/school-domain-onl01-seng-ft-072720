@@ -35,10 +35,13 @@ attr_accessor :roster
 
   def sort
     hash = {}
-    @roster.keys.sort
+    @roster.sort.map do |grade, name|
+        binding.pry
+      end
+      
     # @roster.each do |grade, name|
     #   name = name.sort
-        binding.pry
+        
     # end
 
 
